@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register course</title>
+</head>
+<link rel="stylesheet" href="css/reg.css">
+<body>
+
+    <script>
+        var expanded = false;
+
+            function showCheckboxes() {
+            var checkboxes = document.getElementById("checkboxes");
+            if (!expanded) {
+                checkboxes.style.display = "block";
+                expanded = true;
+            } else {
+                checkboxes.style.display = "none";
+                expanded = false;
+            }
+        }
+   </script>
+
+    <center>
+        <form action="CourseReg.php">
+            <h2>First Year</h2>
+            <table>
+                <th>First Semester</th>
+                <tr>
+                    <td>
+                        <div class="multiselect">
+                          <div class="selectBox" onclick="showCheckboxes()">
+                            <select>
+                              <option>Select Course</option>
+                            </select>
+                            <div class="overSelect"></div>
+                          </div>
+                          <div id="checkboxes">
+                            <label for="one">
+                              <input type="checkbox" id="one" />Functional English 1</label>
+                            <label for="two">
+                              <input type="checkbox" id="two" />Functional English 2</label>
+                            <label for="three">
+                              <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                              <label for="four">
+                                <input type="checkbox" id="four" />Functional English 1</label>
+                              <label for="five">
+                                <input type="checkbox" id="five" />Functional English 2</label>
+                              <label for="six">
+                                <input type="checkbox" id="six" />Engineering Mathematics 2</label>
+                                <label for="seven">
+                                    <input type="checkbox" id="seven" />Functional English 1</label>
+                                  <label for="eight">
+                                    <input type="checkbox" id="eight
+                                    " />Functional English 2</label>
+                                  <label for="nine">
+                                    <input type="checkbox" id="nine" />Engineering Mathematics 2</label>
+                          </div>
+                        </div></td>
+                    
+                </tr>
+                <table>
+            <tr><h2>Second Year</h2></tr>
+
+                <br>
+                <th>First Semester</th>
+                <tr>
+                    <td>
+                        <div class="multiselect">
+                          <div class="selectBox" onclick="showCheckboxes()">
+                            <select>
+                              <option>Select Courses</option>
+                            </select>
+                            <div class="overSelect"></div>
+                          </div>
+                          <div id="checkboxes">
+                            <label for="one">
+                              <input type="checkbox" id="one" />Functional English 1</label>
+                            <label for="two">
+                              <input type="checkbox" id="two" />Functional English 2</label>
+                            <label for="three">
+                              <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                              <label for="one">
+                                <input type="checkbox" id="one" />Functional English 1</label>
+                              <label for="two">
+                                <input type="checkbox" id="two" />Functional English 2</label>
+                              <label for="three">
+                                <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                                <label for="one">
+                                    <input type="checkbox" id="one" />Functional English 1</label>
+                                  <label for="two">
+                                    <input type="checkbox" id="two" />Functional English 2</label>
+                                  <label for="three">
+                                    <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                          </div>
+                        </div>
+                </table></td>
+                    
+                </tr>
+            </table>
+            <h2>Third Year</h2>
+            <table>
+
+                <br>
+                <th>First Semester</th>
+                    <div class="multiselect">
+                      <div class="selectBox" onclick="showCheckboxes()">
+                        <select>
+                          <option>Select Courses</option>
+                        </select>
+                        <div class="overSelect"></div>
+                      </div>
+                      <div id="checkboxes">
+                        <label for="one">
+                          <input type="checkbox" id="one" />Functional English 1</label>
+                        <label for="two">
+                          <input type="checkbox" id="two" />Functional English 2</label>
+                        <label for="three">
+                          <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                          <label for="one">
+                            <input type="checkbox" id="one" />Functional English 1</label>
+                          <label for="two">
+                            <input type="checkbox" id="two" />Functional English 2</label>
+                          <label for="three">
+                            <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                            <label for="one">
+                                <input type="checkbox" id="one" />Functional English 1</label>
+                              <label for="two">
+                                <input type="checkbox" id="two" />Functional English 2</label>
+                              <label for="three">
+                                <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                      </div>
+                    </div>
+            </table></td>
+                    
+                </tr>
+            </table>
+            <h2>Fourth Year</h2>
+            <table>
+                <form>
+                    <div class="multiselect">
+                      <div class="selectBox" onclick="showCheckboxes()">
+                        <select>
+                          <option>Select an option</option>
+                        </select>
+                        <div class="overSelect"></div>
+                      </div>
+                      <div id="checkboxes">
+                        <label for="one">
+                          <input type="checkbox" id="one" />Functional English 1</label>
+                        <label for="two">
+                          <input type="checkbox" id="two" />Functional English 2</label>
+                        <label for="three">
+                          <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                          <label for="one">
+                            <input type="checkbox" id="one" />Functional English 1</label>
+                          <label for="two">
+                            <input type="checkbox" id="two" />Functional English 2</label>
+                          <label for="three">
+                            <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                            <label for="one">
+                                <input type="checkbox" id="one" />Functional English 1</label>
+                              <label for="two">
+                                <input type="checkbox" id="two" />Functional English 2</label>
+                              <label for="three">
+                                <input type="checkbox" id="three" />Engineering Mathematics 2</label>
+                      </div>
+                    </div></form>
+            </table>
+            
+            <td><button name="Submit" value="Submit">Submit</button></td>
+        </form>
+    </center>
+</body>
+</html>
